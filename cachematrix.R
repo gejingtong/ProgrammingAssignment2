@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+##  These functions are able to cache potentially time-consuming computations.
 
-## Write a short comment describing this function
+## Create a matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
   i <- NULL
@@ -18,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## Compute the inverse of the matrix.
 
 cacheSolve <- function(x, ...) {
        i <- x$getinverse()
